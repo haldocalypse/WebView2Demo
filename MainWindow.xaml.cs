@@ -1,18 +1,5 @@
 ﻿using Microsoft.Web.WebView2.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WebView2Wpf
 {
@@ -22,7 +9,7 @@ namespace WebView2Wpf
     public partial class MainWindow : Window
     {
         CoreWebView2Environment WebViewEnvironment { get; set; }
-        string PdfPath = @"D:\Users\Haldo\Documents\my_print_test.pdf";
+        string PdfPath = @"PATH\TO\YOUR\print_test.pdf";
 
         public MainWindow()
         {
@@ -56,11 +43,10 @@ namespace WebView2Wpf
             if (webView2 != null && webView2.CoreWebView2 != null)
             {
                 webView2.NavigateToString(GetHtml());
-
-                //https://via.placeholder.com/350
             }
         }
 
+        // create simple HTML with 2 images
         private string GetHtml()
         {
             return @"<html><body>
