@@ -5,3 +5,6 @@ Simple demo opf WebView2
 2. Run app
 3. Once loaded click "Populate and Print WebView2" button
 4. PDF should be printed to your specified location
+
+
+![alt text](https://github.com/haldocalyps]/WebView2Demo/blob/main/OutputImage.PNG?raw=true)
