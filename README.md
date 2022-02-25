@@ -7,4 +7,4 @@ Simple demo opf WebView2
 4. PDF should be printed to your specified location
 
 
-![alt text](https://github.com/haldocalyps]/WebView2Demo/blob/main/OutputImage.PNG?raw=true)
+![alt text](https://github.com/haldocalypse/WebView2Demo/blob/main/OutputImage.PNG?raw=true)
